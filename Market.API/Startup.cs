@@ -33,6 +33,7 @@ namespace Market.API
             services.AddScoped<IProductDal, EFProductDal>();
             services.AddScoped<ICategoryDal, EFCategoryDal>();
             services.AddScoped<IProductService, EFProductManager>();
+            services.AddScoped<ICategoryService, EFCategoryManager>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
