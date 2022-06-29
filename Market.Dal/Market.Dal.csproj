@@ -13,8 +13,4 @@
     <ProjectReference Include="..\Market.Entities\Market.Entities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Concrete\EF\" />
-  </ItemGroup>
-
 </Project>
