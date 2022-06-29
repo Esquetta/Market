@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace Market.BL.Concrete.EF
 {
-    public class ProductManager : IManagerBase<Product, NorthwindDbContext>, IProductService
+    public class EFProductManager : IManagerBase<Product, NorthwindDbContext>, IProductService
     {
         private IProductDal productDal;
-        public ProductManager(IProductDal productDal)
+        public EFProductManager(IProductDal productDal)
         {
             this.productDal = productDal;
         }

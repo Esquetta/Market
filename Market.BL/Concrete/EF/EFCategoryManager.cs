@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Market.BL.Concrete.EF
 {
-    public class CategoryManager : IManagerBase<Category, NorthwindDbContext>, ICategoryService
+    public class EFCategoryManager : IManagerBase<Category, NorthwindDbContext>, ICategoryService
     {
     }
 }

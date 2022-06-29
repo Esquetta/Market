@@ -1,3 +1,7 @@
+using Market.BL.Abstract;
+using Market.BL.Concrete.EF;
+using Market.Dal.Abstract.EF;
+using Market.Dal.Concrete.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +30,9 @@ namespace Market.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddScoped<IProductDal, EFProductDal>();
+            services.AddScoped<ICategoryDal, EFCategoryDal>();
+            services.AddScoped<IProductService, EFProductManager>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
