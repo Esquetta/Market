@@ -9,5 +9,6 @@ namespace Market.BL.Abstract
 {
     public interface ICategoryService : IServiceBase<Category>
     {
+        
     }
 }
