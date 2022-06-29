@@ -13,9 +13,9 @@ namespace Market.Dal.Abstract
         void Add(Tentity tentity);
         void Update(Tentity tentity);
         void Delete(Tentity tentity);
-        Tentity Get(Expression<Func<bool, Tentity>> filter = null);
-        List<Tentity> GetAll(Expression<Func<bool, Tentity>> filter = null);
-        IQueryable<Tentity> GetAllInclude(Expression<Func<bool, Tentity>> filter = null, params Expression<Func<Tentity, object>>[] include);
+        Tentity Get(Expression<Func<Tentity, bool>> filter = null);
+        List<Tentity> GetAll(Expression<Func<Tentity, bool>> filter = null);
+        IQueryable<Tentity> GetAllInclude(Expression<Func<Tentity, bool>> filter = null, params Expression<Func<Tentity, object>>[] include);
 
     }
 }
