@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Market.Dal\Market.Dal.csproj" />
     <ProjectReference Include="..\Market.Entities\Market.Entities.csproj" />
   </ItemGroup>
 
