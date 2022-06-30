@@ -81,13 +81,13 @@ namespace Market.API.Controllers
             return Ok();
         }
         [HttpGet]
-        public IActionResult GetProductByName(string productName)
+        public IActionResult GetProductById(int id)
         {
-            if (String.IsNullOrEmpty(productName))
+            if (id == null)
             {
                 return BadRequest();
             }
-            var product = productService.GetProductWithCategory(x => x.ProductName == productName);
+            var product = productService.GetProductWithCategory(x => x.ProductID == id);
             return Ok(product);
 
         }
