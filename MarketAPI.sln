@@ -5,11 +5,16 @@ VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Entities", "Market.Entities\Market.Entities.csproj", "{287931CD-BACB-41DB-B3EE-50DC68F9118C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Dal", "Market.Dal\Market.Dal.csproj", "{8C267CA1-05A0-4A14-A494-392263C5E6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Dal", "Market.Dal\Market.Dal.csproj", "{8C267CA1-05A0-4A14-A494-392263C5E6AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.BL", "Market.BL\Market.BL.csproj", "{3B2E71CA-791F-4981-843A-61C08EDA35AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.BL", "Market.BL\Market.BL.csproj", "{3B2E71CA-791F-4981-843A-61C08EDA35AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.API", "Market.API\Market.API.csproj", "{3878BD67-C1A8-49CC-972B-E39152F3528E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.API", "Market.API\Market.API.csproj", "{3878BD67-C1A8-49CC-972B-E39152F3528E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Script", "Database Script", "{79EE92A1-AB31-4F1A-9496-0224C1AD5C8E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\FUFU IS BACK\Documents\Northwind.sql = C:\Users\FUFU IS BACK\Documents\Northwind.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

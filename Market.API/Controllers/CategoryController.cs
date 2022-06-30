@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Market.API.Controllers
 {
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {
