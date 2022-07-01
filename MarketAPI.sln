@@ -11,8 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.BL", "Market.BL\Mark
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.API", "Market.API\Market.API.csproj", "{3878BD67-C1A8-49CC-972B-E39152F3528E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Script", "Database Script", "{79EE92A1-AB31-4F1A-9496-0224C1AD5C8E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Script and Backup", "Database Script and Backup", "{79EE92A1-AB31-4F1A-9496-0224C1AD5C8E}"
 	ProjectSection(SolutionItems) = preProject
+		C:\Northwind.bak = C:\Northwind.bak
 		C:\Users\FUFU IS BACK\Documents\Northwind.sql = C:\Users\FUFU IS BACK\Documents\Northwind.sql
 	EndProjectSection
 EndProject
