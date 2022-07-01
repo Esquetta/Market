@@ -4,8 +4,8 @@ MetropolCard Case
 1--Projede kullanıdığınız tasarım desenleri hangileridir? Bu desenleri neden kullandınız?
 
 <p>
- Projeye repository desing patter ve m-v-c'yi kullandım. Repository Desing Pattern:Case'de entityframework kullandığımdan dolayı
- kendisi direk solid kurallarına uygun kod yazmamı sağladı.MVC:Consumer kısmında  iş bölümü,kod düzeni ve kolay yazılmasından dolayısıyla kullandım.
+ Proje'de repository desing patter ve m-v-c yapısını  kullandım. Repository Desing Pattern:Case'de entityframework kullandığımdan dolayı
+ kendisi direk solid kurallarına uygun kod yazmamı sağladı.MVC:Consumer kısmında  iş bölümü,kod düzeni ve kolay yazılmasını sağladığı için kullandım.
 </p>
  
  2---	Kullandığınız teknoloji ve kütüphaneler hakkında daha önce tecrübeniz oldu mu? Tek tek yazabilir misiniz?
